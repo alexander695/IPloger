@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import time
 import socket
-from colorama import fore 
+from colorama import Fore 
 import os
 import argparse
 from threading import Thread
@@ -21,7 +21,7 @@ args = parser.parse_args()
 
 save = 0  
 iplist = [] 
-
+#banner#
 print (fore.YELLOW + '  ▄█   █████████▄ ')          
 print (fore.YELLOW + '  ██   ██      ██ ')                   
 print (fore.YELLOW + '  ██   ██      ██ ')          
@@ -30,7 +30,7 @@ print (fore.YELLOW + '  ██   ██         ')
 print (fore.YELLOW + '  ██   ██         ')                                
 print (fore.YELLOW + '  ██   ██         ')                    
 print (fore.YELLOW + '  ██   ██         ')
-
+#menu#
 def menu():
      print ('opcions')
      print ('\t1 start')
