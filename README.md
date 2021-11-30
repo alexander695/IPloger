@@ -14,3 +14,5 @@ pip install parser
 pip install os
 
 pip install socket
+
+pip install HTTPServer
