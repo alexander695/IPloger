@@ -7,7 +7,6 @@ import argparse
 from threading import Thread
 import platform
 from http.server import HTTPServer, BaseHTTPRequestHandler
-import json
 import parser
 import webbrowser
 
