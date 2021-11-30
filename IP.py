@@ -22,14 +22,14 @@ args = parser.parse_args()
 save = 0  
 iplist = [] 
 #banner#
-print (fore.YELLOW + '  ▄█   █████████▄ ')          
-print (fore.YELLOW + '  ██   ██      ██ ')                   
-print (fore.YELLOW + '  ██   ██      ██ ')          
-print (fore.YELLOW + '  ██   ██████████ ')                      
-print (fore.YELLOW + '  ██   ██         ')                
-print (fore.YELLOW + '  ██   ██         ')                                
-print (fore.YELLOW + '  ██   ██         ')                    
-print (fore.YELLOW + '  ██   ██         ')
+print (Fore.YELLOW + '  ▄█   █████████▄ ')          
+print (Fore.YELLOW + '  ██   ██      ██ ')                   
+print (Fore.YELLOW + '  ██   ██      ██ ')          
+print (Fore.YELLOW + '  ██   ██████████ ')                      
+print (Fore.YELLOW + '  ██   ██         ')                
+print (Fore.YELLOW + '  ██   ██         ')                                
+print (Fore.YELLOW + '  ██   ██         ')                    
+print (Fore.YELLOW + '  ██   ██         ')
 #menu#
 def menu():
      print ('opcions')
