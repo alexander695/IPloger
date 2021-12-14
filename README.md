@@ -5,14 +5,8 @@ ip loggin
 
 pip install colorama
 
-pip install json
-
-pip install argparse
-
-pip install parser
-
 pip install os
 
 pip install socket
 
-pip install HTTPServer
+pip install socketserver
