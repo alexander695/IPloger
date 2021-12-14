@@ -3,20 +3,8 @@ import time
 import socket
 from colorama import Fore 
 import os
-import argparse
 from threading import Thread
-import platform
-from http.server import HTTPServer, BaseHTTPRequestHandler
-import parser
 import webbrowser
-
-
-parser.add_argument('-u', '--redirect-url', type=str, required=True, help="URL to redirect")
-parser.add_argument('-p', '--port', type=int, default=8181, help="HTTP Server port")
-parser.add_argument('-n', '--ngrok-path', type=str, default='ngrok', help="NGROK path")
-parser.add_argument('-o', '--output-file', type=str, help="output file path")
-
-args = parser.parse_args()
 
 save = 0  
 iplist = [] 
