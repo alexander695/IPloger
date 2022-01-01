@@ -3,8 +3,9 @@ from colorama import Fore
 import socketserver
 import socket
 
-def menu():
+
 #banner#
+def menu():
 print (Fore.YELLOW + '  ▄█   █████████▄ ')          
 print (Fore.YELLOW + '  ██   ██      ██ ')                   
 print (Fore.YELLOW + '  ██   ██      ██ ')          
