@@ -5,7 +5,6 @@ import socket
 
 
 #banner#
-def menu():
 print (Fore.YELLOW + '  ▄█   █████████▄ ')          
 print (Fore.YELLOW + '  ██   ██      ██ ')                   
 print (Fore.YELLOW + '  ██   ██      ██ ')          
@@ -15,6 +14,7 @@ print (Fore.YELLOW + '  ██   ██         ')
 print (Fore.YELLOW + '  ██   ██         ')                    
 print (Fore.YELLOW + '  ██   ██         ')
 #menu#
+def menu():
      print ('opcions')
      print ("\t1 start")
      print ("\t2 install ngrok")
