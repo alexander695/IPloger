@@ -41,9 +41,10 @@ while True:
  if opcionMenu=="2":
      print ("downloading ngrok...")
      os.system("sudo tar xvzf ~/Downloads/ngrok-stable-linux-arm64.tgz -C /usr/local/bin")
-     print("installed susefully!")
+     print ("if you see that message no souch file or directory,please follow the instruccions on the repository")
      input("\npress enter to back")
      os.system("clear")
+   
  else:
      print("an error was ocurred with the installation :c")
      os.system("clear")
