@@ -25,7 +25,6 @@ while True:
  opcionMenu = input("select a opcion >>")
 
  if opcionMenu=="1":
-     if opcionMenu=="1":
      print ("starting ngrok")
      os.system("./ngrok authtoken 1otl8ouPfwH3JwCDCD4fxu2YCgq_624ab5GeqzJhPPwHUbauT")
      os.system("./ngrok ssh -R 8080:localhost:8088 remoteUser@IPAddress")
