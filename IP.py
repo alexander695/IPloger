@@ -38,9 +38,10 @@ while True:
      os.system("clear")
 
  if opcionMenu=="2":
-     print ("downloading ngrok...")
-     os.system("sudo tar xvzf ~/Downloads/ngrok-stable-linux-arm64.tgz -C /usr/local/bin")
-     print ("if you see that message no souch file or directory,please follow the instruccions on the repository")
+     print ("Installing ngrok...")
+     os.system("sudo tar xvzf /tmp/mozilla_root0/ngrok-stable-linux-arm64.tgz -C /usr/local/bin")
+     os.system("sudo tar xvzf /tmp/mozilla_osboxes0/ngrok-stable-linux-arm64.tgz -C /usr/local/bin")
+     print ("if you see that message 'no souch file or directory',move the archive manualy")
      input("\npress enter to back")
      os.system("clear")
    
