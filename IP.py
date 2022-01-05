@@ -38,13 +38,11 @@ while True:
      os.system("clear")
 
  if opcionMenu=="2":
-     print ("Installing ngrok...")
-     os.system("sudo tar xvzf /tmp/mozilla_root0/ngrok-stable-linux-arm64.tgz -C /usr/local/bin")
-     os.system("sudo tar xvzf /tmp/mozilla_osboxes0/ngrok-stable-linux-arm64.tgz -C /usr/local/bin")
-     print ("if you see that message 'no souch file or directory',move the archive manualy")
+     os.system("curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc && sudo apt install ngrok")
+     print ("")
      input("\npress enter to back")
      os.system("clear")
-   
+ 
  else:
      print("an error was ocurred with the installation :c")
      os.system("clear")
