@@ -24,11 +24,12 @@ while True:
  if opcionMenu=="1":
      if opcionMenu=="1":
          print ("starting ngrok")
+         os.system("cp -a site/index.html. /var/www/html/index.html")
          os.system("sudo service apache2 start")
          os.system("chmod 777 ngrok")
          os.system("./ngrok authtoken 1otl8ouPfwH3JwCDCD4fxu2YCgq_624ab5GeqzJhPPwHUbauT")
-         os.system("cp -a site/index.html. /www/html/")
-         os.system("xterm -hold -e ./ngrok http 80 & xterm -hold -e python Cat.py")
+         os.system("xterm -hold -e ./ngrok http 8080")
+         webbrowser.open("http://127.0.0.1:4040", new=2, autoraise=True)
          input("\npress enter to back")
          os.system("clear")
      
