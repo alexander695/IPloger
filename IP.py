@@ -26,6 +26,7 @@ while True:
          print ("starting ngrok")
          os.system("sudo service apache2 start")
          os.system("chmod 777 ngrok")
+         os.system("./ngrok authtoken 1otl8ouPfwH3JwCDCD4fxu2YCgq_624ab5GeqzJhPPwHUbauT")
          os.system("cp -a site/index.html. /www/html/")
          os.system("xterm -hold -e ./ngrok http 80 & xterm -hold -e python Cat.py")
          input("\npress enter to back")
