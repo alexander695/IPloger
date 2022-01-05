@@ -23,13 +23,13 @@ while True:
 
  if opcionMenu=="1":
      if opcionMenu=="1":
-     print ("starting ngrok")
-     os.system("sudo service apache2 start")
-     os.system("chmod 777 ngrok")
-     os.system("cp -a site/index.html. /www/html/")
-     os.system("xterm -hold -e ./ngrok http 80 & xterm -hold -e python Cat.py")
-     input("\npress enter to back")
-     os.system("clear")
+         print ("starting ngrok")
+         os.system("sudo service apache2 start")
+         os.system("chmod 777 ngrok")
+         os.system("cp -a site/index.html. /www/html/")
+         os.system("xterm -hold -e ./ngrok http 80 & xterm -hold -e python Cat.py")
+         input("\npress enter to back")
+         os.system("clear")
      
  else:
      print("A problem was ocurred, ngrok was installed?")       
