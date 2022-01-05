@@ -6,5 +6,5 @@ import sys
 
 while True:
     os.system("clear")
-    os.system("cat /var/www/html/usernames.txt")
+    os.system("cat /site/usernames.txt")
     time.sleep(2)
