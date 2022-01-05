@@ -1,8 +1,5 @@
 import os 
 from colorama import Fore 
-import socketserver
-import socket
-
 
 #banner#
 def menu():
