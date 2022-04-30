@@ -26,3 +26,7 @@ when you ejecute "start" your default browser will be open in a page with the re
 -new method for loggin the ip
 
 -ngrok automatic install fixed
+
+# UPDATE 1.3
+
+-ngrok html page no open fixed+
