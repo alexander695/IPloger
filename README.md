@@ -19,7 +19,7 @@ to update a repository only put "git pull"
 
 when you ejecute "start" your default browser will be open in a page with the requeteds conections
 
-<img width="500" src="https://media.discordapp.net/attachments/946682349662384138/969763573427503104/unknown.png"
+<img width="500" src="https://media.discordapp.net/attachments/946682349662384138/969763573427503104/unknown.png" />
      
 # UPDATE 1.2
 
