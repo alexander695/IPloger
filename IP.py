@@ -37,13 +37,20 @@ while True:
      
 
  if opcionMenu=="2":
+     os.system("sudo dpkg --configure -a")
      os.system("sudo apt-get install unzip -y")
      os.system("wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip")
      os.system("unzip ngrok-stable-linux-amd64.zip")
-     print("Ngrok was installed")
-     time.sleep(3)
+     os.system("Y")
+     os.system("apt install xterm")
+     os.system("install colorama")
+     os.system("clear")
+     print("\nrequirements installed")
+     time.sleep(2)
+     os.system("clear")
  
  else:
      input("An error was ocurred press enter to back")
+     os.system("clear")
 
 
