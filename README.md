@@ -3,13 +3,7 @@ ip loggin
 
 # INSTALL
 
-pip install colorama
-
-pip install os
-
-Run it with,"python3.9 IP.py"
-
-now select the opcion of the program "install ngrok" and ready!
+Run IP.py and select install
 
 # HOW TO UPDATE
 
