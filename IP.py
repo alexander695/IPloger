@@ -16,7 +16,7 @@ def menu():
 
      print ('opcions')
      print ("\t1 start")
-     print ("\t2 install ngrok")
+     print ("\t2 install")
 while True:
     
  menu()
