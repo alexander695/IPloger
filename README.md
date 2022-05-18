@@ -29,4 +29,12 @@ when you ejecute "start" your default browser will be open in a page with the re
 
 # UPDATE 1.3
 
--ngrok html page no open fixed+
+-ngrok html page no open fixed
+
+# UPDATE 1.4
+
+-bugs fixed
+
+-so much bugs
+
+-TOO MANY BUGS
