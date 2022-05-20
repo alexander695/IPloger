@@ -34,3 +34,9 @@ when you ejecute "start" your default browser will be open in a page with the re
 -so much bugs
 
 -TOO MANY BUGS
+
+# UPDATE 1.5
+
+-yes more bugs fixed
+
+-color correction
