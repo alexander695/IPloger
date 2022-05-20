@@ -3,6 +3,8 @@ ip loggin
 
 # INSTALL
 
+pip install colorama
+
 Run IP.py and select install
 
 # HOW TO UPDATE
