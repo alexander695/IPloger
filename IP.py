@@ -42,7 +42,7 @@ while True:
      os.system("wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip")
      os.system("unzip ngrok-stable-linux-amd64.zip")
      os.system("apt install xterm")
-     os.system("install colorama")
+     os.system("pip install colorama")
      os.system("clear")
      print("\nrequirements installed")
      time.sleep(2)
